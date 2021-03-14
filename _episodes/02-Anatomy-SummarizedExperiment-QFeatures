@@ -7,9 +7,6 @@ questions:
 objectives:
 - "Recognize the anatomy of SummarizedExperiment and QFeatures objects."
 - "Execute common operations on SummarizedExperiment and QFeatures objects."
-keypoints:
-- ""
-- ""
 ---
 
 # Anatomy of a SummarizedExperiment object
