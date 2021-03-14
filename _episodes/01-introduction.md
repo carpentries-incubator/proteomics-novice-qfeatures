@@ -57,3 +57,13 @@ Quantitative information is contained in the columns that have "Intensity" tag. 
 ~~~
 {:.language-r}
 
+### Your turn
+
+> ## Exercise
+>
+> Subtract peptide names and intensity values from `f`.
+> > ## Solution
+> > `f[,c(1,i)]`       
+> >
+> {: .solution}
+{: .challenge} 
