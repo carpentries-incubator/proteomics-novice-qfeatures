@@ -11,12 +11,12 @@ objectives:
 
 # Anatomy of a SummarizedExperiment object
 
-Mass spectrometry-based quantitative proteomics data can be representated as a 
-matrix of quantitative values for features (PSMs, peptides, proteins) arranged 
-along the rows, measured for a set of samples, arranged along the columns.
-`SummarizedExperiment` class [@SE] handle this kind of tabular data.
-
 These are the component pieces of the `SummarizedExperiment` for data representation.
+
+<a href="{{ page.root }}/fig/SE.png">
+  <img src="{{ page.root }}/fig/SE.png" alt="SummarizedExperiment" />
+</a>
+
 
 # Anatomy of a QFeatures object
 
