@@ -31,3 +31,16 @@ cptac <- readQFeatures(f, ecol = i, sep = "\t", name = "peptides", fnames = "Seq
 > >
 > {: .solution}
 {: .challenge}  
+
+
+## Encode the experimental design in QFeatures
+
+We can update the sample (column) annotations to encode the two
+groups, 6A and 6B, and the original sample numbers.
+
+~~~
+ptac$group <- rep(c("6A", "6B"), each = 3)
+cptac$sample <- rep(7:9, 2)
+colData(cptac)
+~~~
+{:.language-r}
