@@ -13,4 +13,10 @@ Mass spectrometry-based quantitative proteomics data can be representated as a m
 > This lesson assumes a working understanding of R.
 {: .prereq}
 
+> ## Things You Need To Know
+>
+> 0.  Don't panic.
+> 1.  Everything is going to be fine.
+> 2.  We are learning together.
+
 {% include links.md %}
