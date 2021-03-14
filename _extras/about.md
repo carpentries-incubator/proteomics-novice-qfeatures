@@ -61,9 +61,21 @@ After this module, learners can ...
 
 ### Manipulate QFeatures object
 
+This includes 
+
+After this module, learners can ...
+
+- 
+
+
 
 ### Perform downstream proteomics data analysis with Qfeatures
 
+This includes 
+
+After this module, learners can ...
+
+- 
 
 
 {% include carpentries.html %}
