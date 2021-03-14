@@ -18,4 +18,4 @@ These are the component pieces of the `SummarizedExperiment` for data representa
 
 
 # Anatomy of a QFeatures object
-The `QFeatures` package [@Gatto:2020] is based on the `SummarizedExperiment` and `MultiAssayExperiment` classes and provides infrastructure to manage and analyse quantitative features from mass spectrometry experiments. It follows a hierarchical structure: *spectra* compose  *peptides* which in turn compose *proteins*. The main advantage of this structure is that is very easy to  navigate across spectra, peptide and protein quantitative data.
+QFeatures objects form [QFeatures package](http://www.bioconductor.org/packages/release/bioc/html/QFeatures.html) are based on the `SummarizedExperiment` and `MultiAssayExperiment` classes and provides infrastructure to manage and analyse quantitative features from mass spectrometry experiments. It follows a hierarchical structure: *spectra* compose  *peptides* which in turn compose *proteins*. The main advantage of this structure is that is very easy to  navigate across spectra, peptide and protein quantitative data.
