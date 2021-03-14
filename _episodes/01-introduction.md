@@ -32,7 +32,7 @@ keypoints:
 
 {% include links.md %}
 
-To read that txt file we will use the package `readr`, which is bundled within the `tidyverse` package. Please load the `tidyverse` if not already done. : 
+To read and instepct the peptides.txt file we will use the package `readr`, which is bundled within the `tidyverse` package. Please load the `tidyverse` if not already done. : 
 
 ~~~
 library("tidyverse")
