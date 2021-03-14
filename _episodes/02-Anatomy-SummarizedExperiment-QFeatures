@@ -9,7 +9,7 @@ objectives:
 - "Execute common operations on SummarizedExperiment and QFeatures objects."
 ---
 
-# Anatomy of a SummarizedExperiment object
+# Background  
 
 These are the component pieces of the `SummarizedExperiment` for data representation.
 
