@@ -14,6 +14,8 @@ keypoints:
 ---
 
 ## Read peptide file into QFeatures
+
+We can use the `readQFeatures` function from `QFeatures` package to import `f` data.frame that we read into R before. We also need to provide the position where our quantitative Intensity columns life.  We can name this new `QFeatures` object `cptac`. 
 ~~~
 library("QFeatures")
 cptac <- readQFeatures(f, ecol = i, sep = "\t", name = "peptides", fnames = "Sequence")
