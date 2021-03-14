@@ -20,3 +20,14 @@ library("QFeatures")
 cptac <- readQFeatures(f, ecol = i, sep = "\t", name = "peptides", fnames = "Sequence")
 ~~~
 {:.language-r}
+
+
+> ## Exercise
+>
+> Use the `colData` function to see description of each sample from `cptac`
+>
+> > ## Solution
+> > `colData(cptac)`        
+> >
+> {: .solution}
+{: .challenge}  
