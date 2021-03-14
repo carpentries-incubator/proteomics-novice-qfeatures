@@ -14,7 +14,7 @@ keypoints:
 ---
 
 ## Read peptide file into QFeatures 
- 
+
 ~~~
 library("QFeatures")
 cptac <- readQFeatures(f, ecol = i, sep = "\t", name = "peptides", fnames = "Sequence")
