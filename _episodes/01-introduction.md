@@ -28,7 +28,7 @@ keypoints:
   
   - The data were searched with MaxQuant version 1.5.2.8, and detailed search settings were described by [Goeminne et al](https://pubmed.ncbi.nlm.nih.gov/26566788/). 
   
-  - Three replicates are available for each concentration. The study is a spike-in study for which we know the ground truth so we have the ability to evaluate the quality of the fold change estimates and the list of DE genes that we return with a method.
+  - Three replicates are available for each concentration. The study is a spike-in study for which we know the ground truth.
 
 {% include links.md %}
 
