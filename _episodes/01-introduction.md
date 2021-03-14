@@ -41,6 +41,8 @@ library("tidyverse")
 
 ~~~
 f <- readr::read_delim("https://raw.githubusercontent.com/lgatto/bioc-ms-prot/master/data/cptac_peptides.txt",delim="\t")
+
+## explore
 head(f)
 ~~~
 {:.language-r}
