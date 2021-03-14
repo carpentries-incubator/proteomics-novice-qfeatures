@@ -1,0 +1,26 @@
+---
+title: "Identifying the anatomy of SummarizedExperiment and QFeatures objects"
+teaching: 30
+exercises: 20
+questions:
+- "How do SummarizedExperiment and QFeatures objects look like?"
+objectives:
+- "Recognize the anatomy of SummarizedExperiment and QFeatures objects."
+- "Execute common operations on SummarizedExperiment and QFeatures objects."
+keypoints:
+- ""
+- ""
+---
+
+# Anatomy of a SummarizedExperiment object
+
+Mass spectrometry-based quantitative proteomics data can be representated as a 
+matrix of quantitative values for features (PSMs, peptides, proteins) arranged 
+along the rows, measured for a set of samples, arranged along the columns.
+`SummarizedExperiment` class [@SE] handle this kind of tabular data.
+
+These are the component pieces of the `SummarizedExperiment` for data representation.
+
+# Anatomy of a QFeatures object
+
+The `QFeatures` package [@Gatto:2020] is based on the `SummarizedExperiment` and `MultiAssayExperiment` classes and provides infrastructure to manage and analyse quantitative features from mass spectrometry experiments. It follows a hierarchical structure: *spectra* compose  *peptides* which in turn compose *proteins*. The main advantage of this structure is that is very easy to  navigate across spectra, peptide and protein quantitative data.
