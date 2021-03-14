@@ -16,50 +16,14 @@ keypoints:
 ## Read peptide file into QFeatures 
 
 ~~~
-library("QFeatures")
-cptac <- readQFeatures(f, ecol = i, sep = "\t", name = "peptides", fnames = "Sequence")
+library("tidyverse")
 ~~~
 {:.language-r}
 
-
-> ## Exercise
->
-> Use the `colData` function to see description of each sample from `cptac`
->
-> > ## Solution
-> > `colData(cptac)`        
-> >
-> {: .solution}
-{: .challenge}  
-
-
-## Encode the experimental design in QFeatures
-
-We can update the sample (column) annotations to encode the two
-groups, 6A and 6B, and the original sample numbers.
-
 ~~~
-ptac$group <- rep(c("6A", "6B"), each = 3)
-cptac$sample <- rep(7:9, 2)
-colData(cptac)
-~~~
-{:.language-r}
+f <- readr::read_delim("https://raw.githubusercontent.com/lgatto/bioc-ms-prot/master/data/cptac_peptides.txt",delim="\t")
 
-
-## Get metadata information of QFeatures 
-
-We can get metadata information of QFeatures
-
-~~~
-rowData(cptac)
-~~~
-{:.language-r}
-
-
-We can use the `assay` function to get a matrix-like `cptac`
-
-~~~
-library("magrittr")
-assay(cptac) %>% head(2)
+## explore
+head(f)
 ~~~
 {:.language-r}
