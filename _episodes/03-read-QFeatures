@@ -1,0 +1,24 @@
+---
+title: "Importing txt into Qfeatures"
+teaching: 15
+exercises: 0
+questions:
+- "How can we import txt file into QFeatures object?"
+- "How can we add metadata to QFeatures?"
+- "How can we inspect QFeatures features?"
+objectives:
+- "Import MaxQuant peptides.txt file into QFeatures object."
+- "Inspect QFeatures features."
+keypoints:
+- "Functions from QFeatures and SummarizeExperiment packages allow to do these steps seamlessly."
+---
+
+## Read peptide file into QFeatures 
+ 
+ ~~~
+library("QFeatures")
+cptac <- readQFeatures(f, ecol = i, sep = "\t", name = "peptides", fnames = "Sequence")
+~~~
+{:.language-r}
+
+  
