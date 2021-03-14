@@ -44,3 +44,22 @@ cptac$sample <- rep(7:9, 2)
 colData(cptac)
 ~~~
 {:.language-r}
+
+
+## Get metadata information of QFeatures 
+
+We can get metadata information of QFeatures
+
+~~~
+rowData(cptac)
+~~~
+{:.language-r}
+
+
+We can use the `assay` function to get a matrix-like `cptac`
+
+~~~
+library("magrittr")
+assay(cptac) %>% head(2)
+~~~
+{:.language-r}
