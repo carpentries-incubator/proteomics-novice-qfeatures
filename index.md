@@ -9,8 +9,10 @@ Mass spectrometry-based quantitative proteomics data can be representated as a m
 > ## Prerequisites
 >
 > This lesson assumes a working understanding of R.
+> 
 > This lesson assumes familiarity with proteomics data analysis.
-> The course is targeted to either proteomics practitioners that would like to learn how to use R to analyse proteomics data.
+> 
+> The course is targeted to proteomics practitioners that would like to learn how to use R to analyse proteomics data.
 {: .prereq}
 
 > ## Things You Need To Know
