@@ -19,7 +19,7 @@ These are the component pieces of the `SummarizedExperiment` for data representa
 We can access different levels of information of a SummarizedExperiment object using the following functions:
 - assay()): A matrix-like or list of matrix-like objects of identical dimension
 - colData(): Annotations on each column, as a DataFrame.
-- rowData() and / or rowRanges(): Annotations on each row.
+- rowData(): Annotations on each row.
 
 
 
