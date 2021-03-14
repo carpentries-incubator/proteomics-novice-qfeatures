@@ -24,13 +24,14 @@ We can access different levels of information of a SummarizedExperiment object u
 
 
 # Anatomy of a QFeatures object
-QFeatures objects form [QFeatures package](hhttp://www.bioconductor.org/packages/release/bioc/html/QFeatures.html) are based on the `SummarizedExperiment` and `MultiAssayExperiment` classes and provides infrastructure to manage and analyse quantitative features from mass spectrometry experiments. It follows a hierarchical structure: *spectra* compose  *peptides* which in turn compose *proteins*. The main advantage of this structure is that is very easy to  navigate across spectra, peptide and protein quantitative data.
+QFeatures objects form [QFeatures package](hhttp://www.bioconductor.org/packages/release/bioc/html/QFeatures.html) are based on the `SummarizedExperiment` and `MultiAssayExperiment` classes and provides infrastructure to manage and analyse quantitative features from mass spectrometry experiments. It follows a hierarchical structure: *spectra* (first column in the picture) compose  *peptides* (second column in the picture) which in turn compose *proteins* (third column in the picture). The main advantage of this structure is that is very easy to  navigate across spectra, peptide and protein quantitative data.
 
 <a href="{{ page.root }}/fig/SE.png">
   <img src="{{ page.root }}/fig/QF.png" alt="QFeatures" />
 </a>
 
-We can load a simplify example `feat1`  data, which is composed of single *assay* of class `SummarizedExperiment` composed of 10 rows and 2
+Example:
+We can load a simplify example `feat1` data, which is composed of single *assay* of class `SummarizedExperiment` composed of 10 rows and 2
 columns.
 
 ~~~
