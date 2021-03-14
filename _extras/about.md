@@ -40,6 +40,16 @@ The main audience of this carpentry lesson is researches that are familiar with 
 
 The following offers more details to each learning objective based on Bloom's Taxonomy. For hints on how to use this approach, see [lesson 15 of the instructor training](https://carpentries.github.io/instructor-training/15-lesson-study/index.html)
 
+### Identify the anatomy of proteomics data
+
+This includes knowledge of the dataset we will use in this lesson
+
+After this module, learners can ...
+
+- Inspect the anatomy of peptide.txt file use in this lesson
+- Select the quantitative information and the metadata information used in this proteomics data analysis
+
+
 ### Identify the anatomy of SummarizedExperiment and QFeatures objects
 
 This includes knowledge of these types of objects
