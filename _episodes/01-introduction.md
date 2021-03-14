@@ -32,6 +32,8 @@ keypoints:
 
 {% include links.md %}
 
+## Read data 
+
 To read and instepct the peptides.txt file we will use the package `readr`, which is bundled within the `tidyverse` package. Please load the `tidyverse` if not already done. : 
 
 ~~~
@@ -44,6 +46,14 @@ f <- readr::read_delim("https://raw.githubusercontent.com/lgatto/bioc-ms-prot/ma
 
 ## explore
 head(f)
+~~~
+{:.language-r}
+
+## Quantitative information
+
+Quantitative information is contained in the columns that have "Intensity" tag. We can see which columns have quantitative information.
+~~~
+(i <- grep("Intensity.", names(f))) # 56 57 58 59 60 61
 ~~~
 {:.language-r}
 
